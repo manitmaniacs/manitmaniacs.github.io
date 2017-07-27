@@ -14,6 +14,26 @@
        <div class="menu">
        </div>
        <div class="slider">
+           <script language="JavaScript">
+var i = 0;
+var path = new Array();
+
+path[0] = "images/image1.jpg";
+path[1] = "images/image2.jpg";
+path[2] = "images/image3.jpg";
+path[3] = "images/image4.jpg";
+function swapImage()
+{
+   document.slide.src = path[i];
+   if(i < path.length - 1) 
+   i++; 
+   else
+    i = 0;
+   setTimeout("swapImage()",3000);
+}
+window.onload=swapImage;
+</script>
+<img height="1000" name="slide" src="images/image1.jpg" width="1000" />
        </div>
        <div class="aboutus">
        </div>

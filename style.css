@@ -1,6 +1,7 @@
 .title{
     background-color: black;
 }
+img { max-width: 100%; }
 img.maniacs{
     display: block;
     margin-left: auto;

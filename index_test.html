@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html ng-app>
    <head>
        <title>MANIT Maniacs</title>
        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
        <meta name="HandheldFriendly" content="true">
        <link rel="stylesheet" href="style.css">
+       <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.3/angular.min.js"></script>
+       <script src="bscript.js"></script>
    </head>
    <body>
        <div class="title">
@@ -38,6 +40,17 @@ function swapImage()
 window.onload=swapImage;
 </script>
 <img class="slide" height="400px" name="slide" src="images/image1.jpg" width="80%"/>
+       </div>
+       <div class="bdays" ng-controller="birthdayCtrl">
+    <h1>Upcoming Birthdays</h1>
+    <table>
+    <td>Name</td>
+    <td>Birthday</td>
+    <tr ng-repeat="friend in friends| orderBy:'fromNow' ">
+    <td>{{friend.name}}</td>
+    <td>{{friend.birthday}}</td>
+    </tr>
+    </table>
        </div>
        <div class="aboutus">
            <h1>ABOUT US</h1>

@@ -14,7 +14,7 @@ $scope.friends=[
   {name:'Prateek','birthday':"01/10"},
   {name:'Prashant','birthday':"06/09"},
   {name:'Himanshu','birthday':"12/27"},
-  {name:'AnantMK','birthday':"05/30"},
+  {name:'Anant MK','birthday':"05/30"},
   {name:'Aviral','birthday':"05/01"},
   ]
   

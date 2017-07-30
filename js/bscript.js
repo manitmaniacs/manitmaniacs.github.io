@@ -4,8 +4,18 @@ $scope.friends=[
   {name:'Hridyansh','birthday':"08/06"},
   {name:'Rishabh','birthday':"09/21"},
   {name:'Tarun','birthday':"09/25"},
-  {name:'Sarthak','birthday':"10/16"},
-  
+  {name:'Sarthak','birthday':"10/12"},
+  {name:'Prerit','birthday':"06/09"},
+  {name:'Prakhar','birthday':"11/25"},
+  {name:'Pranjal','birthday':"11/21"},
+  {name:'Ashwini','birthday':"02/19"},
+  {name:'Tanmay','birthday':"07/02"},
+  {name:'Ishaan','birthday':"05/18"},
+  {name:'Prateek','birthday':"01/10"},
+  {name:'Prashant','birthday':"06/09"},
+  {name:'Himanshu','birthday':"12/27"},
+  {name:'AnantMK','birthday':"05/30"},
+  {name:'Aviral','birthday':"05/01"},
   ]
   
   $scope.friends.forEach(function(data){
